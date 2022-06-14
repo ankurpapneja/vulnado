@@ -26,6 +26,6 @@ public class Cowsay {
     }
     return output.toString();
     */
-    return;
+    return "";
   }
 }
