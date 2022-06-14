@@ -43,7 +43,7 @@ jobs:
         with:
           artifact: target/vulnado-0.0.1-SNAPSHOT.jar
           apiKey: ${{ secrets.CONTRAST_API_KEY }}
-          apiUrl: apptwo.contrastsecurity.com
+          apiUrl: https://apptwo.contrastsecurity.com
           orgId: ${{ secrets.CONTRAST_ORGANIZATION_ID }}
           authHeader: ${{ secrets.CONTRAST_AUTH_HEADER }}
           
