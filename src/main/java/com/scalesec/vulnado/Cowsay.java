@@ -5,7 +5,6 @@ import java.io.InputStreamReader;
 
 public class Cowsay {
   public static String run(String input) {
-    /*
     ProcessBuilder processBuilder = new ProcessBuilder();
     String cmd = "/usr/games/cowsay '" + input + "'";
     System.out.println(cmd);
@@ -25,7 +24,5 @@ public class Cowsay {
       e.printStackTrace();
     }
     return output.toString();
-    */
-    return "";
   }
 }
