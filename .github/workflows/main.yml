@@ -41,7 +41,7 @@ jobs:
       - name: Contrast Scan Action
         uses: Contrast-Security-OSS/contrastscan-action@v2
         with:
-          artifact: target/vulnado-0.0.1-SNAPSHOT.jar
+          artifact: target/vulnado-demo-0.0.1-SNAPSHOT.jar
           apiKey: ${{ secrets.CONTRAST_API_KEY }}
           apiUrl: "apptwo.contrastsecurity.com"
           orgId: ${{ secrets.CONTRAST_ORGANIZATION_ID }}
