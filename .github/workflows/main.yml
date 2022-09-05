@@ -77,3 +77,4 @@ jobs:
           apiKey: ${{ secrets.CONTRAST2_API_KEY }}
           authHeader: ${{ secrets.CONTRAST2_AUTH_HEADER }}
 
+
