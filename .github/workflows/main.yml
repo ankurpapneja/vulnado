@@ -71,7 +71,7 @@ jobs:
       - name: Verify with Contrast Assess
         uses: Contrast-Security-OSS/integration-verify-github-action@main
         with: 
-          appId: f6fb801d-3b70-4a0d-b456-cb03aa29f873
+          appId: b45efaae-76e9-4b1b-aab9-21cf7ef17cb5
           apiUrl: https://apptwo.contrastsecurity.com
           orgId: f3b61ec4-9959-40c6-93ad-1de953429763
           apiKey: ${{ secrets.CONTRAST2_API_KEY }}
