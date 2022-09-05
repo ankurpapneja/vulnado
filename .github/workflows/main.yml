@@ -66,3 +66,14 @@ jobs:
         uses: github/codeql-action/upload-sarif@v2
         with:
           sarif_file: results.sarif
+      
+      # Verify with Contrast Assess
+      - name: Verify with Contrast Assess
+        uses: Contrast-Security-OSS/integration-verify-github-action@main
+        with: 
+          appName: vulnado
+          apiUrl: https://apptwo.contrastsecurity.com
+          orgId: f3b61ec4-9959-40c6-93ad-1de953429763
+          apiKey: ${{ secrets.CONTRAST_API_KEY }}
+          authHeader: ${{ secrets.CONTRAST_AUTH_HEADER }}
+
